@@ -23,7 +23,7 @@ rel = {}
 
 
 @app.on_message(
-    filters.command("runbot")
+    filters.command("bot")
     & filters.private
     & filters.user(PROCESS)
 )
