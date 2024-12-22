@@ -23,7 +23,7 @@ rel = {}
 
 
 @app.on_message(
-    filters.command("yessir")
+    filters.command("tosuu")
     & filters.private
     & filters.user(PROCESS)
 )
